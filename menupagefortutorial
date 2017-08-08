@@ -4,7 +4,7 @@
 <head>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="dailysite2.css">\
+  <link rel="stylesheet" href="dailysite2.css">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -38,25 +38,276 @@
   <br>
   <br>
   <br>
-  <button class="w3-bar-item w3-button tablink" onclick="openCity(event, 'Tokyo')"><font size="5px">Another Option</font>
-    <p>Something to write here!</p>
+  <button class="w3-bar-item w3-button tablink" onclick="openCity(event, 'Tokyo')"><font size="5px">Short or No hair?</font>
+    <p>It's okay! We've got you!</p>
       </button>
 </div>
+
 
 <div style="margin: -10px 10px 0px 325px">     <!-- ORIGINALLY  :::::::::  margin-left:400px -->
 
   <div id="London" class="w3-container city" style="display:none">
 
-    <h1><font color=#660066>Hair Rebellion: Hairstyles!</font></h1>
+  <h1><font color=#660066>Hair Rebellion: Hairstyles!</font></h1>
 
-    <h2><font color=#cc00cc>For Straight Hair:</font></h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/CR4pXwu8xho" frameborder="0" allowfullscreen></iframe>
 
-    <h2><font color=#cc00cc>For Curly Hair:</font></h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/aGfHb5PeNr0" frameborder="0" allowfullscreen></iframe>
 
-    <h2><font color=#cc00cc>For Coily Hair:</font></h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/wauRfSGGMmw" frameborder="0" allowfullscreen></iframe>
+
+
+
+
+
+
+  <h2><font color=#cc00cc>For Straight Hair:</font></h2>
+
+
+
+    <div class="container">
+      <h2>       </h2>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+
+          <div class="item active">
+            <center><img width ="560" height="315" src="http://sj.uploads.im/t/PlIg6.jpg" alt="Chicago"></center>
+            <div class="carousel-caption">
+              <h3> </h3>
+              <p> </p>
+            </div>
+          </div>
+
+          <div class="item">
+            <center><iframe width="560" height="315" src="https://www.youtube.com/embed/CR4pXwu8xho" frameborder="0" allowfullscreen></iframe></center>
+            <div class="carousel-caption">
+              <h3> </h3>
+              <p> </p>
+            </div>
+          </div>
+
+          <div class="item">
+            <center><iframe width="560" height="315" src="https://www.youtube.com/embed/hfZBEUJbtrM" frameborder="0" allowfullscreen></iframe></center>
+              <div class="carousel-caption">
+              <h3> </h3>
+              <p> </p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+
+
+
+
+
+  <h2><font color=#cc00cc>For Wavy Hair:</font></h2>
+
+
+        <div class="container">
+          <h2>       </h2>
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+
+              <div class="item active">
+                <center><img width ="560" height="315" src="http://sl.uploads.im/t/RCtbj.jpg" alt="Chicago"></center>
+                <div class="carousel-caption">
+                  <h3> </h3>
+                  <p> </p>
+                </div>
+              </div>
+
+              <div class="item">
+                <center><iframe width="560" height="315" src="https://www.youtube.com/embed/NEcPtNx_frY" frameborder="0" allowfullscreen></iframe></center>
+                <div class="carousel-caption">
+                  <h3> </h3>
+                  <p> </p>
+                </div>
+              </div>
+
+              <div class="item">
+                <center><iframe width="560" height="315" src="https://www.youtube.com/embed/b-r2U8SNXjY" frameborder="0" allowfullscreen></iframe></center>
+                  <div class="carousel-caption">
+                  <h3> </h3>
+                  <p> </p>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+
+
+
+
+
+
+
+<h2><font color=#cc00cc>For Curly Hair:</font></h2>
+
+
+  <div class="container">
+    <h2>  </h2>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+
+        <div class="item active">
+          <center><img width ="560" height="315" src="http://sm.uploads.im/t/7VAJk.jpg" alt="Chicago"></center>
+          <div class="carousel-caption">
+            <h3> </h3>
+            <p> </p>
+          </div>
+        </div>
+
+        <div class="item">
+          <center><iframe width="560" height="315" src="https://www.youtube.com/embed/ex79jhOaBgo" frameborder="0" allowfullscreen></iframe></center>
+          <div class="carousel-caption">
+            <h3> </h3>
+            <p> </p>
+          </div>
+        </div>
+
+        <div class="item">
+          <center><iframe width="560" height="315" src="https://www.youtube.com/embed/aGfHb5PeNr0" frameborder="0" allowfullscreen></iframe></center>
+            <div class="carousel-caption">
+            <h3> </h3>
+            <p> </p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  <h2><font color=#cc00cc>For Coily Hair:</font></h2>
+
+
+
+  <div class="container">
+    <h2>    </h2>
+    <div id="myCarousel2" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+
+        <div class="item active">
+          <center><img width ="560" height="315" src="http://sk.uploads.im/t/MXUKs.jpg" alt="Chicago"></center>
+          <div class="carousel-caption">
+            <h3> </h3>
+            <p> </p>
+          </div>
+        </div>
+
+        <div class="item">
+          <center><iframe width="560" height="315" src="https://www.youtube.com/embed/wauRfSGGMmw" frameborder="0" allowfullscreen></iframe></center>
+          <div class="carousel-caption">
+            <h3> </h3>
+            <p> </p>
+          </div>
+        </div>
+
+        <div class="item">
+          <center><iframe width="560" height="315" src="https://www.youtube.com/embed/LVuV2tdr3vc" frameborder="0" allowfullscreen></iframe></center>
+            <div class="carousel-caption">
+            <h3> </h3>
+            <p> </p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel2" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel2" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
   </div>
 
   <div id="Paris" class="w3-container city" style="display:none">
@@ -69,10 +320,10 @@
   </div>
 
   <div id="Tokyo" class="w3-container city" style="display:none">
-    <h1><font color=#660066>Hair Rebellion: Another Option!</font></h1>
-    <h2><font color=#cc00cc>For Straight Hair:</font></h2>
-    <iframe src="http://www.youtube.com/embed/W7qWa52k-nE"
-     width="560" height="315" frameborder="0" allowfullscreen></iframe>
+    <h1><font color=#660066>Hair Rebellion: Short or No Hair</font></h1>
+    <h2><font color=#cc00cc></font></h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/k58Frs77jqo" frameborder="0" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ha6iXTrwzWg" frameborder="0" allowfullscreen></iframe>
   </div>
 
 </div>
@@ -92,6 +343,9 @@ function openCity(evt, cityName) {
   evt.currentTarget.className += " w3-red";
 }
 </script>
+
+
+
 
 </body>
 </html>
